@@ -105,7 +105,7 @@ const GallerySection: React.FC<GallerySectionProps> = ({
           <button
             type="button"
             onClick={() => setCurrentImageIndex((prev: number) => (prev - 1 + galleryImages.length) % galleryImages.length)}
-            className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/20 backdrop-blur-sm text-white p-3 rounded-full hover:bg-white/30 transition-all duration-200 hover:scale-110"
+            className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/10 backdrop-blur-sm text-white p-3 rounded-full hover:bg-white/20 transition-all duration-200 hover:scale-110"
             title="Previous image"
           >
             <span className="text-2xl">‹</span>
